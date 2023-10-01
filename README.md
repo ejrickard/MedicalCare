@@ -99,7 +99,7 @@ Here's solution:
 - Employ Firebase Hosting for web-based admin dashboard.
 
 
-* [<img height="100" src="images\java.png" width="150"/>](https://www.java.com/)
+* [<img height="100" src="images\Java-Logo.png" width="150"/>](https://www.java.com/)
 * [<img height="100" src="images\firebase.png" width="150"/>](https://firebase.google.com/)
 * [<img height="100" src="images\new android.png" width="100"/>](https://developer.android.com/studio)
 

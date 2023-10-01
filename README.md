@@ -142,7 +142,7 @@ _To install and run the Cross-Platform MedicalCare Application in Android Studio
 * Clone the GitHub repository using the following command (replace repo-url with the actual URL of the GitHub repository you want to clone):
 
    ```sh
-   git clone [repo-url](https://github.com/slymackjr/MedicalCare.git)
+   git clone https://github.com/slymackjr/MedicalCare.git
    ```
     This will create a local copy of the project on your machine.
 

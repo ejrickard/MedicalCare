@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".BuyMedicineActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Your existing UI elements -->
+        <TextView
+            android:id="@+id/textViewDDName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="@string/app_motto"
+            android:textColor="@color/lessDeepYellow"
+            android:fontFamily="@font/alegreya_bold"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDDTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/deliverLocation"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewDDName"
+            app:layout_constraintStart_toStartOf="@+id/textViewDDName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+            app:layout_constraintVertical_bias="0.008" />
+
+        <TextView
+            android:id="@+id/textViewBMTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/buyMedicine"
+            android:textColor="@color/yellowLight"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewDDTitle"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="@+id/textViewDDTitle"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDDTitle"
+            app:layout_constraintVertical_bias="0.024" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listViewBM"
+            android:layout_width="370dp"
+            android:layout_height="444dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewBMTitle"
+            app:layout_constraintHorizontal_bias="0.512"
+            app:layout_constraintStart_toStartOf="@+id/textViewBMTitle"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBMTitle" />
+
+        <Button
+            android:id="@+id/buttonBMGoToCart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/btn_bg"
+            android:text="@string/goToCart"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/listViewBM"
+            app:layout_constraintVertical_bias="0.513" />
+
+        <Button
+            android:id="@+id/buttonBMBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
+            android:text="@string/back"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.787"
+            app:layout_constraintStart_toEndOf="@+id/buttonBMGoToCart"
+            app:layout_constraintTop_toBottomOf="@+id/listViewBM"
+            app:layout_constraintVertical_bias="1.0" />
+        <!-- Add any additional views here -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

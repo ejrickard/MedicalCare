@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".CartBuyMedicineActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Your existing UI elements -->
+        <TextView
+            android:id="@+id/textViewDDName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:text="@string/app_motto"
+            android:fontFamily="@font/alegreya_bold"
+            android:textColor="@color/lessDeepYellow"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewDDTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/deliverLocation"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:fontFamily="@font/roboto_medium"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/textViewDDName"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewDDName"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDDName"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textViewBMCartTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/buyMedicineCartItems"
+            android:textColor="@color/yellowLight"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            app:layout_constraintEnd_toEndOf="@+id/textViewDDTitle"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toStartOf="@+id/textViewDDTitle"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDDTitle"
+            app:layout_constraintVertical_bias="0.016" />
+
+
+        <TextView
+            android:id="@+id/textViewBMCartTotalCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:text="@string/costString"
+            android:textColor="@color/purple_700"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/roboto_medium"
+            app:layout_constraintEnd_toEndOf="@+id/listViewBMCart"
+            app:layout_constraintStart_toStartOf="@+id/listViewBMCart"
+            app:layout_constraintTop_toBottomOf="@+id/listViewBMCart" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listViewBMCart"
+            android:layout_width="316dp"
+            android:layout_height="340dp"
+            android:layout_margin="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.492"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBMCartTitle"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <Button
+            android:id="@+id/buttonBMCartDate"
+            style="?android:spinnerStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/date"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textView4"
+            app:layout_constraintHorizontal_bias="0.461"
+            app:layout_constraintStart_toStartOf="@+id/textView4"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:text="@string/selectDeliveryDate"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/roboto_medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/textViewBMCartTotalCost"
+            app:layout_constraintHorizontal_bias="0.453"
+            app:layout_constraintStart_toStartOf="@+id/textViewBMCartTotalCost"
+            app:layout_constraintTop_toBottomOf="@+id/textViewBMCartTotalCost"
+            app:layout_constraintVertical_bias="0.051" />
+
+        <Button
+            android:id="@+id/buttonBMCartBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/back"
+            android:textColor="@color/white"
+            android:background="@drawable/btn_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBMCartDate"
+            app:layout_constraintVertical_bias="0.473" />
+
+        <Button
+            android:id="@+id/buttonBMCartCheckout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:text="@string/checkOut"
+            android:background="@drawable/btn_bg"
+            android:textColor="@color/white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.882"
+            app:layout_constraintStart_toEndOf="@+id/buttonBMCartBack"
+            app:layout_constraintTop_toBottomOf="@+id/buttonBMCartDate" />
+        <!-- Add any additional views here -->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

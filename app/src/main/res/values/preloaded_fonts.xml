@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/aguafina_script</item>
+        <item>@font/alegreya</item>
+        <item>@font/alegreya_bold</item>
+        <item>@font/brawler</item>
+        <item>@font/dancing_script_bold</item>
+        <item>@font/lato</item>
+        <item>@font/poppins</item>
+        <item>@font/roboto</item>
+        <item>@font/roboto_light</item>
+        <item>@font/roboto_medium</item>
+        <item>@font/roboto_mono_medium</item>
+        <item>@font/seaweed_script</item>
+    </array>
+</resources>

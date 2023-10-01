@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorRed">#EF0707</color>
+    <color name="purpleDark">#2E1233</color>
+    <color name="yellowLight">#FBE943</color>
+    <color name="LightBlue">#87CEFA</color>
+    <color name="PaleGreen">#98FB98</color>
+    <color name="Lavender">#E6E6FA</color>
+    <color name="Beige">#F5F5DC</color>
+    <color name="Sand">#F4A460</color>
+    <color name="Light_Blue">#ADD8E6</color>
+    <color name="SoftGray">#D3D3D3</color>
+    <color name="BabyBlue">#89CFF0</color>
+    <color name="SkyBlue">#87CEEB</color>
+    <color name="deepYellow">#F1AF04</color>
+    <color name="paleBlue">#9DBCFA</color>
+    <color name="lessDeepYellow">#F8BD08</color>
+
+    <color name="purple_300">#1E1D1D</color>
+    <color name="purple_600">#1E1D1D</color>
+    <color name="purple_800">#1E1D1D</color>
+    <!-- purple 700 ka change for title bar -->
+    <color name="trans">#00000000</color>
+    <color name="warn">#FF1313</color>
+    <color name="halfwarn">#483FC8</color>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- White color gradient on the left side -->
+    <item android:id="@+id/white_gradient">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#FFFFFF"
+            android:endColor="#FFFFFF"
+            android:angle="0" />
+        </shape>
+    </item>
+
+    <!-- Blue to dark blue gradient on the right side -->
+    <item android:id="@+id/blue_gradient">
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="#0000FF"
+            android:endColor="#010158"
+            android:angle="0" />
+        </shape>
+    </item>
+
+</layer-list>

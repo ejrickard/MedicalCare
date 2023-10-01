@@ -13,7 +13,7 @@
 <br />
 <div align="center">
   <a href="#">
-    <img src="images/mockup27.png" alt="Logo" width="300" height="450">
+    <img src="images/mockup27.PNG" alt="Logo" width="300" height="450">
   </a>
 
   <h3 align="center">Cross-Platform MedicalCare Application</h3>

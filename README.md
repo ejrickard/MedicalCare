@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="#">
+  <a href="https://github.com/slymackjr/MedicalCare">
     <img src="images/mockup27.PNG" alt="Logo" width="300" height="450">
   </a>
 
@@ -12,7 +12,7 @@
   <p align="center">
     A cross-platform medical care application that connects patients and healthcare providers seamlessly. The application enables patients to schedule appointments, access medical records, receive telemedicine consultations, and interact with healthcare professionals. Healthcare providers use the desktop application for efficient management.
     <br />
-    <a href="#"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/slymackjr/MedicalCare"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="#">View Demo</a>
@@ -142,7 +142,7 @@ _To install and run the Cross-Platform MedicalCare Application in Android Studio
 * Clone the GitHub repository using the following command (replace repo-url with the actual URL of the GitHub repository you want to clone):
 
    ```sh
-   git clone repo-url
+   git clone [repo-url](https://github.com/slymackjr/MedicalCare.git)
    ```
     This will create a local copy of the project on your machine.
 
@@ -170,13 +170,11 @@ _To install and run the Cross-Platform MedicalCare Application in Android Studio
 
 The cross-platform healthcare application aims to revolutionize the patient-provider interaction, providing a seamless experience across Android devices and desktop computers. By leveraging the capabilities of Firebase, the application will offer real-time data synchronization, authentication, and secure communication, enhancing healthcare services for patients and providers alike. With a dedicated team and a comprehensive approach, it will be possible, I am confident in delivering a successful and impactful healthcare solution.
 
-<div style="display: flex; justify-content: space-between;">
-  <img src="images/mockup1.PNG" alt="Image 1" width="50%">
-  <img src="images/mockup2.PNG" alt="Image 2" width="50%">
-  <img src="images/mockup3.PNG" alt="Image 3" width="50%">
-</div>
 
 <div style="overflow-x: auto; white-space: nowrap;">
+  <img src="images/mockup1.PNG" alt="Image 1" style="display: inline-block; max-width: 100%;">
+  <img src="images/mockup2.PNG" alt="Image 1" style="display: inline-block; max-width: 100%;">
+  <img src="images/mockup3.PNG" alt="Image 1" style="display: inline-block; max-width: 100%;">
   <img src="images/mockup4.PNG" alt="Image 1" style="display: inline-block; max-width: 100%;">
   <img src="images/mockup5.PNG" alt="Image 2" style="display: inline-block; max-width: 100%;">
   <img src="images/mockup6.PNG" alt="Image 3" style="display: inline-block; max-width: 100%;">
@@ -201,7 +199,6 @@ The cross-platform healthcare application aims to revolutionize the patient-prov
   <img src="images/mockup25.PNG" alt="Image 3" style="display: inline-block; max-width: 100%;">
   <img src="images/mockup26.PNG" alt="Image 3" style="display: inline-block; max-width: 100%;">
   <img src="images/mockup27.PNG" alt="Image 3" style="display: inline-block; max-width: 100%;">
-
 
 </div>
 

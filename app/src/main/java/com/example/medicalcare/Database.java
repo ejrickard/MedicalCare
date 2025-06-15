@@ -15,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import java.security.SecureRandom;
 
 import java.util.Objects;
 import java.util.Random;
@@ -81,7 +82,7 @@ public class Database {
 
 
     public void addOrder(String username, String fullName, String address, String contact, int pinCode, String date, String time, float price, String otype) {
-        Random random = new Random();
+        Random random = new SecureRandom();
         int randomNumber = random.nextInt(10000);
         orderRef = FirebaseDatabase.getInstance().getReference("orderPlace");
         Order order = new Order(username, fullName, address, contact, pinCode, date, time, price, otype);
